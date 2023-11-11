@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+    <title>Bz Segmentation</title>
+    <script src="header-color.js"></script>
+    <script src="toggle-button.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="segmentation.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Bz Segmentation</a></div>
+            <ul class="links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="segmentation.html">Segmentation</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+            <div class="dropdown_menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="segmentation.html">Segmentation</a></li>
+        </div>
+    </header>
+
+
+    <section id="home">
+        <div id="home-content">
+            <h1><span>Segmentation d'Image</span></h1>
+            <input type="file" id="imageInput" accept="image/*">
+            <canvas id="imageCanvas" width="800" height="600"></canvas>
+            <button id="annotateButton">Annotation automatique</button>
+        </div>
+    </section>
+    <script src="Ai.js"></script>
+
+
+
+
+
+
+    <footer>
+        <div>
+            <h2>About Us</h2>
+            <p>Welcome to Hz Segmentations, your trusted partner for data segmentation, annotations, and image editing. We're dedicated to providing top-quality services tailored to your needs.</p>
+        </div>
+        <div>
+            <h2>Contact Information</h2>
+            <p>Email: zakariabouflous200@gmail.com</p>
+            <p>Phone: +33 6 03 20 13 46</p>
+            <p>Address: Paris, France</p>
+        </div>
+        <div>
+            <h2>Services</h2>
+            <ul>
+                <li>Data Segmentation</li>
+                <li>Annotations</li>
+                <li>Image Editing</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Connect with Us</h2>
+            <p>Follow us on social media for the latest updates and insights:</p>
+            <br>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Developer</h2>
+            <p>Website developed by <br><br><span>Zakariae Bouflous</span></p>
+        </div>
+        <div>
+            <p>&copy; 2023 Bz Segmentations. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
